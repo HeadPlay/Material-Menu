@@ -99,10 +99,10 @@ $menu-gradient-stop-2: $menu-gradient-stop-1 + $menu-toggle-layer-thickness;
   transform: translateX(0);
 }
 
-@media all and ( min-width: 300px ) {
+@media all and ( min-width: 200px ) {
   .mm-menu {
-    width: 300px;
-    transform: translateX(-300px);
+    width: 200px;
+    transform: translateX(-200px);
   }
 }
 
